@@ -44,6 +44,8 @@ import urllib3
 
 from .exceptions import RequestsDependencyWarning
 
+print("I'm in danger! This library has been tampered with!")
+
 try:
     from charset_normalizer import __version__ as charset_normalizer_version
 except ImportError:
